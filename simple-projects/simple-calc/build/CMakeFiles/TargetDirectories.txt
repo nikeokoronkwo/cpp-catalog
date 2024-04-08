@@ -1,3 +1,0 @@
-/Users/nikechukwu/Desktop/projects/c++-catalog/simple-projects/simple-calc/build/CMakeFiles/simple-calc.dir
-/Users/nikechukwu/Desktop/projects/c++-catalog/simple-projects/simple-calc/build/CMakeFiles/edit_cache.dir
-/Users/nikechukwu/Desktop/projects/c++-catalog/simple-projects/simple-calc/build/CMakeFiles/rebuild_cache.dir
