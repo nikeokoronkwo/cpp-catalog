@@ -1,2 +1,5 @@
 # Vim Files
-*/*.vim
+**/*.vim
+
+**/build/
+simple-projects/simple-calc/main
