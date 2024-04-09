@@ -6,8 +6,8 @@ Welcome to the C++ ANSI Colour library, designed to make it easier to use ANSI i
 
 One special feature that this has is the ability to make your own **custom colours**. 
 
-.. code-block:: cpp
-    :linenos:
+.. code-block:: c++
+
     #include <ansi.h>
     #include <iostream>
 
