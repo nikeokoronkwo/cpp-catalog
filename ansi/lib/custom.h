@@ -7,9 +7,9 @@ extern "C" {
 
 /// The struct used to represent Red, Green and Blue Colours
 typedef struct RGB {
-    int red;
-    int green;
-    int blue;
+  int red;
+  int green;
+  int blue;
 } RGB;
 
 /// Get the required ansi code from the given rgb code

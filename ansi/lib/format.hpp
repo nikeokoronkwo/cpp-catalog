@@ -3,7 +3,6 @@
 
 #include "base.h"
 #include "colours.h"
-
 #include "custom.h"
 
 const Ansi red = Ansi(RED);
@@ -15,7 +14,7 @@ const Ansi cyan = Ansi(CYAN);
 const Ansi white = Ansi(WHITE);
 
 namespace ansi {
-    Ansi rgb(int r, int g, int b);
+Ansi rgb(int r, int g, int b);
 }
 
 #endif

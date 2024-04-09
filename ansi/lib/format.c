@@ -1,6 +1,7 @@
-#include "colours.h"
 #include "format.h"
+
 #include "base.h"
+#include "colours.h"
 
 char* red(char* word) { return format(word, RED); }
 char* blue(char* word) { return format(word, BLUE); }

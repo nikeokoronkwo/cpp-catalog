@@ -16,19 +16,20 @@ char* format(char* str, char* code);
 #endif
 
 #ifdef __cplusplus
-std::string format(std::string str, char* code); 
+std::string format(std::string str, char* code);
 
 class Ansi {
-    std::string code;
-public:
-    Ansi(const char* m_code);
-    Ansi(std::string m_code);
+  std::string code;
 
-    static Ansi custom(int rgbcode);
+ public:
+  Ansi(const char* m_code);
+  Ansi(std::string m_code);
 
-    std::string get_code() const;
+  static Ansi custom(int rgbcode);
 
-    std::string operator()(std::string str) const;
+  std::string get_code() const;
+
+  std::string operator()(std::string str) const;
 };
 #endif
 
