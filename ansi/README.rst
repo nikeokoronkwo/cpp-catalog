@@ -9,11 +9,13 @@ One special feature that this has is the ability to make your own **custom colou
 .. code-block:: cpp
     :linenos:
 
+
     #include <ansi.h>
     #include <iostream>
 
     int main() {
-        std::cout << "Hello" << std::endl;
+        std::cout << red("Hello") << std::endl;
+        return 0;
     }
 
 Building This Pro
