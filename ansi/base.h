@@ -1,3 +1,6 @@
+#ifndef ANSI_BASE_H
+#define ANSI_BASE_H
+
 #ifdef __cplusplus
 #include <string>
 #endif
@@ -16,15 +19,17 @@ char* format(char* str, char* code);
 std::string format(std::string str, char* code); 
 
 class Ansi {
-    char* code;
+    std::string code;
 public:
-    Ansi(char* m_code);
+    Ansi(const char* m_code);
     Ansi(std::string m_code);
 
     static Ansi custom(int rgbcode);
 
-    char* operator()(char* str);
-    std::string operator()(std::string str);
-}
+    std::string get_code() const;
+
+    std::string operator()(std::string str) const;
+};
 #endif
 
+#endif

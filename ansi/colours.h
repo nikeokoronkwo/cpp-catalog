@@ -1,3 +1,6 @@
+#ifndef ANSI_COLOURS_H
+#define ANSI_COLOURS_H
+
 /// ANSI escape codes for text color
 #include "reset.h"
 
@@ -9,4 +12,4 @@
 #define CYAN    "\033[36m"      
 #define WHITE   "\033[37m" 
 
-
+#endif

@@ -1,3 +1,5 @@
+#ifndef ANSI_CUSTOM_H
+#define ANSI_CUSTOM_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -14,8 +16,10 @@ typedef struct RGB {
 int ansi_code_from_rgb(int r, int b, int g);
 
 /// Get the required ansi code from the given RGB struct
-int ansi_code_from_rgb(RGB rgb);
+int ansi_code_from_RGB(RGB rgb);
 
 #ifdef __cplusplus
 }
+#endif
+
 #endif
