@@ -8,8 +8,6 @@ One special feature that this has is the ability to make your own **custom colou
 
 .. code-block:: cpp
     :linenos:
-
-
     #include <ansi.h>
     #include <iostream>
 
